@@ -4,7 +4,7 @@ error_reporting(0);
 include('includes/config.php');
 if(strlen($_SESSION['alogin'])==0)
 	{	
-header('location:index.php');
+header('vente:index.php');
 }
 else{
 if(isset($_REQUEST['eid']))
@@ -46,7 +46,7 @@ $msg="Réservation confirmée avec succès";
 	<meta name="author" content="">
 	<meta name="theme-color" content="#3e454c">
 	
-	<title>Location de voitures |Administrateur gére témoignages   </title>
+	<title>vente de voitures d'occasion |Administrateur gére témoignages   </title>
 
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="css/font-awesome.min.css">
